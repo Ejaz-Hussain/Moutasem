@@ -15,6 +15,11 @@ body {
   animation-fill-mode: forwards;
 }
 
+.container {
+  width: 80%;
+  margin: auto;
+}
+
 header {
   background-color: #f1f0f0;
   display: flex;
@@ -65,5 +70,12 @@ main #p1 {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media (max-width: 430px) {
+  main h1 span {
+    display: block;
+    font-size: 25px;
   }
 }
