@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #333;
+  color: #fff;
+  opacity: 0;
+  animation-name: appearSlow;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+header {
+  background-color: #f1f0f0;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: #333;
+}
+
+header img {
+  position: relative;
+  top: -5px;
+}
+
+main {
+  margin-top: 80px;
+  text-align: center;
+}
+
+main #pp {
+  border-radius: 50%;
+  border: 11px solid white;
+  border: 20px solid rgb(255, 255, 255, 0.9);
+  width: 30vh;
+}
+
+main h1 {
+  margin: 20px 0px;
+}
+
+main p {
+  padding: 8px 0px;
+}
+main #p1 {
+  padding-top: 0px;
+}
+
+.link {
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes appearSlow {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
